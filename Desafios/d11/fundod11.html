@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundo Astronata</title>
     <style>
+        *{
+            margin: 0;
+        }
         #container {
             background-image: url('imagens/espaco.jpg');
             background-size: 100% 100%;
             position: relative;
-            height: 96vh;
+            height: 100vh; /*tamanho da viwport*/
         }
 
         #conteudo {
-            background-image: url('imagens/astronauta.png');
+            background-image: url('imagens/astronauta.png'); /* imagem*/
+            
             background-size: 100% 100%;
-            position: absolute;
             height: 300px;
-            width: 300px;
+            width: 300px; /* tamanho*/
+
+            position: absolute; /* posição*/
             left:50% ;
             top: 50%;
             transform: translate(-50%, -50%);
